@@ -10,6 +10,10 @@ namespace UnitTests
             Calculator calculator = new Calculator();
             int result = calculator.Add(3, 5);
             Assert.Equal(8, result);
+            
+
+            decimal decResult = calculator.Adddecimal((decimal)3.71, (decimal)5.9);
+            Assert.Equal((decimal)0.61, decResult);
         }
     }
 }

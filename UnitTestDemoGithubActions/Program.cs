@@ -8,6 +8,11 @@ namespace UnitTestDemoGithubActions
         {
             return a + b;
         }
+
+        public decimal Adddecimal(decimal a, decimal b)
+        {
+            return a + b;
+        }
     }
 
     class Program
