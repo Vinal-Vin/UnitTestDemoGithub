@@ -6,6 +6,11 @@ namespace UnitTestDemoGithubActions
     {
         public int Add(int a, int b)
         {
+            return a - b;
+        }
+
+        public decimal Adddecimal(decimal a, decimal b)
+        {
             return a + b;
         }
     }
