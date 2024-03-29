@@ -16,7 +16,7 @@ namespace NUnitTests
         public void Test1()
         {
             int result = calculator.Add(3, 5);
-            Assert.AreEqual(8, result);
+            Assert.AreEqual(9, result);
         }
     }
 }
