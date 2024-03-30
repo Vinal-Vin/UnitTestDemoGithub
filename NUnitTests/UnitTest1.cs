@@ -13,10 +13,17 @@ namespace NUnitTests
         }
 
         [Test]
-        public void Test1()
+        public void TestAdd()
         {
             int result = calculator.Add(3, 5);
             Assert.AreEqual(8, result);
+        }
+
+        [Test]
+        public void TestSubtractionWithNegativeValue()
+        {
+            int result = calculator.Add(3, 5);
+            Assert.AreEqual(-2, result);
         }
     }
 }
