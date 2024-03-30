@@ -22,7 +22,7 @@ namespace NUnitTests
         [Test]
         public void TestSubtractionWithNegativeValue()
         {
-            int result = calculator.Add(3, 5);
+            int result = calculator.Subtraction(3, 5);
             Assert.AreEqual(-2, result);
         }
     }
