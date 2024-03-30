@@ -25,5 +25,13 @@ namespace NUnitTests
             int result = calculator.Subtraction(3, 5);
             Assert.AreEqual(-2, result);
         }
+
+
+        [Test]
+        public void TestMultiplication()
+        {
+            int result = calculator.Multiplication(3, 5);
+            Assert.AreEqual(-2, result);
+        }
     }
 }
