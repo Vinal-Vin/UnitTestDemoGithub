@@ -31,7 +31,7 @@ namespace NUnitTests
         public void TestMultiplication()
         {
             int result = calculator.Multiplication(3, 5);
-            Assert.AreEqual(-2, result);
+            Assert.AreEqual(15, result);
         }
     }
 }
