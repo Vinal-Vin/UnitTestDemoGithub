@@ -2,5 +2,5 @@
 UnitTestDemoGithubActions/bin/
 UnitTestDemoGithubActions/obj
 
-UnitTests/bin/
-UnitTests/obj
+NUnitTests/bin/
+NUnitTests/obj
